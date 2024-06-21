@@ -1,0 +1,144 @@
+.hero-wrapper{
+   margin: 4rem 0;
+}
+
+
+.profile-innerContainer{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1rem;
+    
+}
+
+/* hero left side */
+
+.hero-left{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.hero-title>h1{
+    font-size: 2rem;
+    line-height: 3rem;
+    font-weight: 600;
+}
+.hero-intro{
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+
+.social-links{
+    display: flex;
+    gap: 1rem;
+   align-items: center;
+    
+}
+.social-links>a>img{
+    transition: all 300ms ease-in;
+}
+.social-links>a>img:hover{
+    scale: 1.1;
+  
+
+}
+
+.tech-stack{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+       justify-content: center;
+    align-items: center;
+    
+}
+
+.techstack-title>h4{
+    display: flex;
+    gap: 1rem;
+  
+}
+.tech-stack-icons{
+    display: flex;
+    gap: 2rem;
+
+}
+.techstack-title>h4>span{
+    font-weight: 600;
+}
+
+.stack-container{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    height: 200px;
+}
+
+/* hero right side */
+.image-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    
+    
+}
+
+.profile-innerContainer {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1rem;
+    flex-direction: column-reverse;
+}
+
+
+.image-container>img{
+ border-radius:  40% 70% 30% 50% / 20% 70% 30% 30%;
+    width: 290px;
+}
+
+
+@media  (max-width:768px) {
+    .hero-wrapper{
+        margin: 0;
+    }
+    .profile-innerContainer{
+        flex-direction: column-reverse;
+    }
+    .hero-title {
+        text-align: center;
+    }
+    .profile-container{
+        margin: 1rem 0rem;
+        
+    }
+    .social-links>a>img:hover{
+    scale: 1;
+    
+
+}
+
+}
+
+@media (max-width:640px) {
+    .hero-title>h1{
+        font-size: 1.5rem;
+    }
+    .profile-innerContainer{
+        flex-direction: column-reverse;
+    }
+    .tech-stack{
+        gap: .3rem;
+    }
+    .tech-stack-icons{
+        gap: .6rem;
+    }
+    .tech-stack-icons img{
+       width: 25px;
+    }
+    .image-container>img{
+        width: 280px;
+        margin: 0;
+    }
+    
+}

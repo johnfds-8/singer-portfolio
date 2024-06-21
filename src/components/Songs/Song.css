@@ -1,0 +1,88 @@
+.card {
+  border: 1px solid hsl(0, 0%, 80%);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.1);
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  max-width: 200px;
+  display: inline-block;
+}
+
+.card .card-image {
+  max-width: 80%;
+  height: auto;
+  border-radius:2px;
+  margin-bottom: 20px;
+}
+
+.card .card-title {
+  font-family: Arial, sans-serif;
+  font-weight: 600;
+  margin: 10px;
+  height: 30px;
+  color: rgb(139, 0, 100);
+}
+
+.card .card-stream {
+  font-family: Arial, sans-serif;
+  font-weight: 500;
+  margin: 20px;
+  height: 20px;
+  color: blue;
+}
+
+.tech-stack-icons {
+  display: flex;
+  gap: 1rem;
+
+}.spotify{
+   transition: transform .2s;
+}
+
+.spotify:hover{
+   transform: scale(1.6); 
+}
+
+
+.amazon{
+   transition: transform .2s;
+}
+
+.amazon:hover{
+   transform: scale(1.6); 
+}
+
+.youtube{
+   transition: transform .2s;
+}
+
+.youtube:hover{
+   transform: scale(1.6); 
+}
+
+.apple{
+   transition: transform .2s;
+}
+
+.apple:hover{
+   transform: scale(1.6); 
+}
+
+
+
+
+
+@media (max-width: 640px)
+ {
+  
+  
+  .tech-stack-icons {
+    gap: 0.6rem;
+  }
+  .tech-stack-icons img {
+    width: 25px;
+  }
+  
+
+}

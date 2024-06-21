@@ -1,0 +1,97 @@
+
+.container-contact{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4rem;
+}
+.container-contact>div{
+    flex:1;
+}
+.contact-title>h3{
+    font-size: 1.4rem;
+    color: #0775F0;
+    font-weight: 600;
+}
+.email{
+    display: flex;
+    flex-direction: column;
+
+}
+.input-container> button{
+    width: 100%;
+    margin-top: 8px;
+}
+
+.contact-button{
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.para{
+    padding: 1rem;
+}
+.mail{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    color: black;
+}
+
+.top-input-fields{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: space-between;
+}
+
+.each-input{
+    display: flex;
+    flex-direction: column;
+    gap: .2rem;
+}
+
+.input{
+    padding: .6rem;
+    outline: none;
+    border: 2px solid rgb(222, 222, 222);
+    
+    border-radius: 4px;
+}
+
+.input-container{
+    margin: auto;
+   max-width: 500px;
+}
+.mailId>p{
+    font-size: 1rem;
+    font-weight: 500;
+    
+}
+.copyrights{
+    margin-top: 1rem;
+    text-align: center;
+    opacity: .8;
+}
+
+@media (max-width:1024px) {
+    .about-container{
+        flex-direction: column;
+    }
+
+}
+
+@media (max-width:640px) {
+    .each-input{
+        width: 100%;
+    }
+    .para{
+        padding: 0;
+    }
+    @media (max-width:768px) {
+            button:hover{
+    scale: 1;
+    box-shadow: none;
+    
+}
+    }
+}
